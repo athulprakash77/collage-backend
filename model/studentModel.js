@@ -10,6 +10,4 @@ let sSchema=Mongoose.Schema(
 
     }
 )
-
-let Smodel=Mongoose.model("collage",sSchema)
-module.exports=Smodel
+module.exports=Mongoose.model("collage",sSchema)
